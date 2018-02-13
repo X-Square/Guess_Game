@@ -1,3 +1,11 @@
+function low {
+	echo "Your guess is too low. Guess again!"
+}
+
+function high {
+	echo "Your guess is too high. Guess again!"
+}
+
 echo "Guess how many files are in the current directory. Type a number:"
 
 read  guess
@@ -7,10 +15,10 @@ while [[ $guess -ne $ans ]]
 do
 	if [[ $guess -gt $ans ]]
 	then
-		echo "Your guess is too high. Guess again:"
+		high
 		read guess
 	else
-		echo "Your guess is too low. Guess again:"
+		low
 		read guess
 	fi
 done
