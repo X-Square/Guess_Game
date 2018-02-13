@@ -24,3 +24,4 @@ do
 done
 
 echo "That is right. Congratulations!"
+ech0 "Done."
