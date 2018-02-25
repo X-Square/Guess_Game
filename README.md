@@ -11,8 +11,8 @@ Program file: guessinggame.sh
 
 
 Number of lines of code: 
-      26
+      28
 
 
 Time when make was run: 
-Sun Feb 18 21:43:26 EST 2018
+Sat Feb 24 22:22:27 EST 2018
