@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function low {
 	echo "Your guess is too low. Guess again!"
 }
